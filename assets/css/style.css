@@ -67,6 +67,7 @@ header nav ul li a {
     font-size: 50px;
     display: flex;
     justify-content: flex-end;
+    text-align: right;
     }
 
 /*About Me Starts*/
@@ -81,10 +82,86 @@ header nav ul li a {
     border-right: 5px solid dimgray;
     text-align: right;
     padding-right: 40px;
+    min-width: 15%;
+    max-width: 15%;
 }
 
 .about-me p {
     font-size: 20px;
     padding: 0 30px;
     line-height: 1.6;
+}
+
+/*Work Start*/
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.work h2 {
+    border-right: 5px solid dimgray;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 15%;
+    max-width: 15%;
+    flex: 0 0 25%;
+}
+
+.work div {
+    flex: 0 0 75%;
+    flex: wrap;
+}
+
+.work-items div {
+    min-height: 200px;
+    max-height: 200px;
+    border: 3px solid dimgray;
+    margin: 5px;
+}
+
+.work-item1 {
+    background-image: url("../images/surf-report.jpg");
+    background-size: cover;
+}
+
+.work-item2 {
+    background-image: url("../images/led.jpg");
+    background-size: cover;
+}
+
+.work-item3 {
+    background-image: url("../images/calculator.jpg");
+    background-size: cover;
+}
+
+.work-item4 {
+    background-image: url("../images/puzzle.jpg");
+    background-size: cover;
+}
+
+.work-item5 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
+}
+
+/*Contact Me Start*/
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.contact h2 {
+    border-right: 5px solid dimgray;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 15%;
+    max-width: 15%;
+}
+
+.contact a {
+    text-decoration: none;
 }
