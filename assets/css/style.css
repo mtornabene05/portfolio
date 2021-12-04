@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
@@ -6,12 +11,11 @@ body {
 
 /*Start Header*/
 header {
-    padding: 20px 35px;
+    padding: 20px;
     background-color: plum;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    z-index: 99999;
 }
 
 header h1 {
@@ -27,19 +31,60 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 20px;
 }
 
 header nav ul {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     list-style: none;
 }
 
 header nav ul li a {
+    padding: 10px;
     margin: 10px, 15px;
     font-weight: lighter;
     font-size: 24px;
+}
+
+/* Start Hero*/
+
+.hero {
+    background-image: url("../images/grayscale-rose.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.hero h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-style: italic;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+/*About Me Starts*/
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me h2 {
+    border-right: 5px solid dimgray;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
 }
