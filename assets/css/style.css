@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,15 +88,14 @@ header nav ul li a {
 
 .about-me p {
     font-size: 20px;
-    padding: 0 30px;
+    padding: 0 40px;
     line-height: 1.6;
+    border: 3px solid none;
 }
 
 /*Work Start*/
 .work {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
     padding-top: 30px;
 }
 
@@ -106,44 +105,54 @@ header nav ul li a {
     padding-right: 40px;
     min-width: 15%;
     max-width: 15%;
-    flex: 0 0 25%;
 }
 
 .work div {
-    flex: 0 0 75%;
-    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 
 .work-items div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
     min-height: 200px;
     max-height: 200px;
     border: 3px solid dimgray;
     margin: 5px;
+    /* justify-content: space-between;  */
 }
 
 .work-item1 {
     background-image: url("../images/surf-report.jpg");
     background-size: cover;
+    flex-basis: 100%;
 }
 
 .work-item2 {
     background-image: url("../images/led.jpg");
     background-size: cover;
+    flex-basis: 40.5%;
 }
 
 .work-item3 {
     background-image: url("../images/calculator.jpg");
     background-size: cover;
+    flex-basis: 40.5%;
 }
 
 .work-item4 {
     background-image: url("../images/puzzle.jpg");
     background-size: cover;
+    flex-basis: 40.5%;
 }
 
 .work-item5 {
     background-image: url("../images/run-buddy.jpg");
     background-size: cover;
+    flex-basis: 40.5%;
 }
 
 /*Contact Me Start*/
