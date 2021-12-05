@@ -114,6 +114,10 @@ header nav ul li a {
     max-width: 15%;
 }
 
+.work h3 {
+    background-color: plum;
+}
+
 .work div {
     display: flex;
     flex-wrap: wrap;
