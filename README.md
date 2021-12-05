@@ -1,19 +1,22 @@
-Horiseon
-Description
-Repositiory contains code that has been cleaned and improved. The links in the navigation bar were not working properly and the HTML was not broken out properly to show the individual elements on the page. The CSS has also been cleaned up to avoid duplicate entries and add root variables. Accesible alt attributes have also been added for when the website is used with assistive technologies.
+# Maria Tornabene Portfolio
 
-Built With
+## Description
+This website is my first draft of my professional portfolio. All links work, including the reference links which link to a temporary page. I have added the responsive layout to the page so it can properly be viewed on just about any screen size.
+
+## Built With
 HTML
 CSS
-Website
+
+## Website
 Direct Website URL: https://mtornabene05.github.io/portfolio/
 
 Repository URL: https://github.com/mtornabene05/portfolio.git/
 
-Screenshot
+## Screenshot
 This is a screenshot of screen at initial deployment.
 
-
+<img src="./live-screenshot.png">
+*[Screenshot](assets/images/live-screenshot.png)
 
 Contribution
 Made with ❤️ by Maria Tornabene
