@@ -93,6 +93,13 @@ header nav ul li a {
     border: 3px solid none;
 }
 
+.about-me img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
+    max-height: 200px;
+}
 /*Work Start*/
 .work {
     display: flex;
@@ -202,4 +209,33 @@ header nav ul li a {
 .contact a {
     text-decoration: none;
     color: dimgray;
+}
+
+/*Media Query for Smaller Desktop Screens and Smaller*/
+@media screen and (max-width: 980px) {
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 24px;
+    }
+
+    .work-items div{
+        flex-basis: 100%;
+    }
 }
