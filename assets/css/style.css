@@ -62,7 +62,7 @@ header nav ul li a {
 
 .hero h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    color: dimgray;
     font-style: italic;
     font-size: 50px;
     display: flex;
@@ -74,8 +74,8 @@ header nav ul li a {
 .about-me {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     padding-top: 30px;
+    color: dimgray;
 }
 
 .about-me h2 {
@@ -97,6 +97,13 @@ header nav ul li a {
 .work {
     display: flex;
     padding-top: 30px;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.work a {
+    color: dimgray;
+    text-decoration: none;
 }
 
 .work h2 {
@@ -122,7 +129,6 @@ header nav ul li a {
     max-height: 200px;
     border: 3px solid dimgray;
     margin: 5px;
-    /* justify-content: space-between;  */
 }
 
 .work-item1 {
@@ -159,8 +165,8 @@ header nav ul li a {
 .contact {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     padding-top: 30px;
+    color: dimgray;
 }
 
 .contact h2 {
@@ -171,6 +177,25 @@ header nav ul li a {
     max-width: 15%;
 }
 
+.contact nav {
+    margin: 20px;
+}
+
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact nav ul li {
+    padding: 30px 10px;
+    margin: 10px, 15px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
 .contact a {
     text-decoration: none;
+    color: dimgray;
 }
