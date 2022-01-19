@@ -239,3 +239,10 @@ header nav ul li a {
         flex-basis: 100%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+    }
+}

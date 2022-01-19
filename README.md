@@ -15,8 +15,7 @@ Repository URL: https://github.com/mtornabene05/portfolio.git/
 ## Screenshot
 This is a screenshot of screen at initial deployment.
 
-<img src="./live-screenshot.png">
-*[Screenshot](assets/images/live-screenshot.png)
+![Screenshot](./assets/images/live-screenshot.PNG)
 
 Contribution
 Made with ❤️ by Maria Tornabene
