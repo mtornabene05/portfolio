@@ -1,248 +1,296 @@
 * {
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
 }
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    background-color: lavenderblush;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  background-color: lavenderblush;
 }
 
 /*Start Header*/
 header {
-    padding: 20px;
-    background-color: plum;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  padding: 20px;
+  background-color: plum;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 48px;
-    color: dimgray;
+  font-weight: bold;
+  margin: 0;
+  font-size: 48px;
+  color: dimgray;
 }
 
 header a {
-    text-decoration: none;
-    color: dimgray;
+  text-decoration: none;
+  color: dimgray;
 }
 
 header nav {
-    margin: 20px;
+  margin: 20px;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px;
-    margin: 10px, 15px;
-    font-weight: lighter;
-    font-size: 24px;
+  padding: 10px;
+  margin: 10px, 15px;
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 /* Start Hero*/
 
 .hero {
-    background-image: url("../images/grayscale-rose.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    height: 300px;
+  background-image: url("../images/grayscale-rose.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  height: 300px;
 }
 
 .hero h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: dimgray;
-    font-style: italic;
-    font-size: 50px;
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-    }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dimgray;
+  font-style: italic;
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
 
 /*About Me Starts*/
 .about-me {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    color: dimgray;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: dimgray;
 }
 
 .about-me h2 {
-    border-right: 5px solid dimgray;
-    text-align: right;
-    padding-right: 40px;
-    min-width: 15%;
-    max-width: 15%;
+  border-right: 5px solid dimgray;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 15%;
+  max-width: 15%;
 }
 
 .about-me p {
-    font-size: 20px;
-    padding: 0 40px;
-    line-height: 1.6;
-    border: 3px solid none;
+  font-size: 20px;
+  padding: 0 40px;
+  line-height: 1.6;
+  border: 3px solid none;
 }
 
 .about-me img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 40px;
-    max-height: 200px;
+  padding: 0 40px;
+  max-height: 200px;
+  max-width: 100%;
 }
 /*Work Start*/
 .work {
-    display: flex;
-    padding-top: 30px;
-    color: dimgray;
-    text-decoration: none;
+  display: flex;
+  padding-top: 30px;
+  color: dimgray;
+  text-decoration: none;
 }
 
 .work a {
-    color: dimgray;
-    text-decoration: none;
+  color: dimgray;
+  text-decoration: none;
 }
 
 .work h2 {
-    border-right: 5px solid dimgray;
-    text-align: right;
-    padding-right: 40px;
-    min-width: 15%;
-    max-width: 15%;
+  border-right: 5px solid dimgray;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 15%;
+  max-width: 15%;
 }
 
 .work h3 {
-    background-color: plum;
+  background-color: plum;
 }
 
 .work div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
 }
 
 .work-items div {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 40px;
-    min-height: 200px;
-    max-height: 200px;
-    border: 3px solid dimgray;
-    margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  min-height: 200px;
+  max-height: 200px;
+  border: 3px solid dimgray;
+  margin: 5px;
 }
 
 .work-item1 {
-    background-image: url("../images/music-dashboard.jpg");
-    background-size: cover;
-    flex-basis: 100%;
+  background-image: url("../images/music-dashboard.jpg");
+  background-size: cover;
+  flex-basis: 100%;
 }
 
 .work-item2 {
-    background-image: url("../images/led.jpg");
-    background-size: cover;
-    flex-basis: 40.5%;
+  background-image: url("../images/rainbow-pawprints.jpg.png");
+  background-size: cover;
+  flex-basis: 100%;
 }
 
 .work-item3 {
-    background-image: url("../images/calculator.jpg");
-    background-size: cover;
-    flex-basis: 40.5%;
+  background-image: url("../images/calculator.jpg");
+  background-size: cover;
+  flex-basis: 100%;
 }
 
 .work-item4 {
-    background-image: url("../images/puzzle.jpg");
-    background-size: cover;
-    flex-basis: 40.5%;
+  background-image: url("../images/puzzle.jpg");
+  background-size: cover;
+  flex-basis: 100%;
 }
 
 .work-item5 {
-    background-image: url("../images/run-buddy.jpg");
-    background-size: cover;
-    flex-basis: 40.5%;
+  background-image: url("../images/run-buddy.jpg");
+  background-size: cover;
+  flex-basis: 100%;
 }
 
 /*Contact Me Start*/
 .contact {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    color: dimgray;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: dimgray;
 }
 
 .contact h2 {
-    border-right: 5px solid dimgray;
-    text-align: right;
-    padding-right: 40px;
-    min-width: 15%;
-    max-width: 15%;
+  border-right: 5px solid dimgray;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 15%;
+  max-width: 15%;
 }
 
 .contact nav {
-    margin: 20px;
+  margin: 20px;
 }
 
 .contact nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
 }
 
 .contact nav ul li {
-    padding: 30px 10px;
-    margin: 10px, 15px;
-    font-weight: lighter;
-    font-size: 24px;
+  padding: 30px 10px;
+  margin: 10px, 15px;
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 .contact a {
-    text-decoration: none;
-    color: dimgray;
+  text-decoration: none;
+  color: dimgray;
 }
 
 /*Media Query for Smaller Desktop Screens and Smaller*/
 @media screen and (max-width: 980px) {
-    header{
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-        font-size: 48;
-    }
+  header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48;
+  }
 
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav ul li a {
-        font-size: 24px;
-    }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
 
-    .work-items div{
-        flex-basis: 100%;
-    }
+  header nav ul li a {
+    font-size: 24px;
+  }
+
+  .work-items div {
+    flex-basis: 100%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me h2 {
+    border-right: 0;
+    border-bottom: 5px solid dimgray;
+    text-align: center;
+    padding-right: 40px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .about-me img {
+    max-height: unset;
+    max-width: unset;
+    width: 40%;
+    height: auto;
+    align-self: center;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work h2 {
+    border-right: 0;
+    border-bottom: 5px solid dimgray;
+    text-align: center;
+    padding-right: 40px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact h2 {
+    border-right: 0;
+    border-bottom: 5px solid dimgray;
+    text-align: center;
+    padding-right: 40px;
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #about-me {
-        display: flex;
-        flex-direction: column;
-    }
+  #about-me {
+    display: flex;
+    flex-direction: column;
+  }
 }
